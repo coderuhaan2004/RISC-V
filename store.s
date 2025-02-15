@@ -1,3 +1,4 @@
+.text
 #Store 0xdeadbeef into the memory
 lui s0, 1 #set the upper 5 bytes to 1
 slli s0, s0, 16 #shift by 16 bits = 2 bytes
